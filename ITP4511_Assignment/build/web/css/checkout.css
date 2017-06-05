@@ -1,0 +1,60 @@
+div#container{
+   height: 500px; 
+}
+div#container>b{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+div#container>div#payment{
+    width: 45%;
+    float: left;
+    height: 300px;
+}
+div#container>div#payment>div.title{
+    background-color: #212121;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+div#container>div#payment>div>p{
+    width: 100%;
+}
+div#container>div#payment>div>p>input{
+    width: 50%;
+    float: right;
+}
+div#container>div#payment>button {
+    font-size: 16px;
+    height: 40px;
+    width: 180px;
+    margin-top: 30px;
+    background: #212121;
+    color: #fff;
+    border: 1px solid #212121;
+    outline: none;
+    float:left;
+}
+div#container>div#preview{
+    width: 50%;
+    float: right;
+}
+div#container>div#preview>table {
+    width: 100%;
+    text-align: left;
+}
+
+div#container>div#preview>table>tbody>tr:nth-child(1) {
+    background-color: #f2f2f2;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+div#container>div#preview>table>tbody>tr>td {
+    padding: 10px 0;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+    line-height: 18px;
+    font-size: 12px;
+}

@@ -1,0 +1,40 @@
+.content{
+	margin-top:50px;
+	padding:50px;
+}
+#create{
+	float:left;
+	background-color: #4CAF50;
+}
+#cancel{
+	float:left;
+	background-color: red;
+}
+#update{
+	width:40%;
+	margin-left:auto;
+	background-color: orange;
+}
+#delete{
+	width:40%;
+	margin-left:auto;
+	background-color: orange;
+}
+thead{
+	background-color:#0097BF;
+	color:white;
+}
+.pagination{
+	float:right;
+}
+button{
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 8px;
+}

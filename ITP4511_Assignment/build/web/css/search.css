@@ -1,0 +1,122 @@
+div#container>div#fliter {
+    float: left;
+    width: 30%;
+}
+
+div#container>div#result {
+    float: right;
+    width: 70%;
+}
+
+div#container>div#fliter>div>div:first-child {
+    color: #989898;
+    width: 90%;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    border-bottom: 1px solid #212121;
+}
+
+div#container>div#fliter>div>div.hide {
+    display: none;
+}
+
+div#container>div#fliter>div>div>i {
+    color: #212121;
+    line-height: 25px;
+    float: right;
+}
+
+div#container>div#fliter>div>div>p>input{
+    float: right;
+    margin-right: 10%;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #212121;
+}
+
+div#container>div#fliter>div {
+    margin-bottom: 50px;
+}
+
+div#container>div#result>b {
+    display: block;
+    width: 100%;
+}
+
+div#container>div#result>div {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    max-width: 230px;
+    height: 367px;
+    margin: 10px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+div#container>div#result>div>div:first-child {
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+    padding: 5px;
+    z-index: 1;
+}
+
+div#container>div#result>div>img {
+    position: relative;
+}
+
+div#container>div#result>div>div.color {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #212121;
+    margin: auto;
+    margin-top: 10px;   
+    margin-bottom: 10px;     
+}
+
+div#container>div#result>div>div.name {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+div#container>div#result>div>div.price {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+div#container>div#result>div>button {
+    position: relative;
+    background-color: #212121;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+div#container>div#result>div:hover>div.tooltips{
+    display: block;
+}
+
+div#container>div#result>div>div.tooltips{
+    display: none;
+    background-color: #212121;
+    padding: 20px;
+    color: #fff;
+    height: 215px;
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: -350px;
+}

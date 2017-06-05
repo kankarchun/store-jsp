@@ -1,0 +1,16 @@
+Fri Nov 25 00:24:26 HKT 2016 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Nov 25 00:24:27 HKT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0158-9727-04c0-ffffc9b272eb 
+on database directory /home/j113203/下載/db/ITP4511_DB with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/usr/lib/jvm/java-8-oracle/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=/usr/lib/jvm/java-8-oracle/db
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-47-generic
+derby.system.home=/home/j113203/下載/db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Nov 25 00:33:44 HKT 2016: Shutting down Derby engine

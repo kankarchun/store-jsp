@@ -1,0 +1,62 @@
+.redemption_item{
+    position: relative;
+    text-align: left;
+    display: block;
+    background-color: white;
+    width: 800px;
+    margin: 5px;
+    border: 1px #cccccc solid;
+}
+
+.redemption_item .item_head{
+    padding: 30px;
+    background-color: white;
+    -webkit-transition: background-color 500ms;
+    transition: background-color 500ms;
+}
+
+.redemption_item:hover .item_head{
+    background-color: #e5e5e5;
+}
+
+.redemption_item .name{
+    position: absolute;
+    left: 200px;
+}
+
+.redemption_item .qty{
+    position: absolute;
+    left: 420px;
+}
+
+.redemption_item .point{
+    position: absolute;
+    left: 560px;
+}
+
+.redemption_item .item_detail{
+    background-color: #e5e5e5;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 300ms;
+    transition: max-height 300ms;
+}
+
+.redemption_item:hover .item_detail{
+    max-height:1000px;
+}
+
+.redemption_item img{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.redemption_item .detail{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}

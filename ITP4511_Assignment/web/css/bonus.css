@@ -1,0 +1,40 @@
+.bonus_menu_container{
+    position:absolute;
+    top:0px; left:0px; height:80px; right:0px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.bonus_main_container{
+    position:absolute;
+    top:80px; bottom: 0px;
+    right:0px; left:0px;
+    width: 100%;
+    
+    background-color: whitesmoke;
+}
+
+.bonus_menu_container div{
+    margin-top: 5px;
+    display: inline-block;
+    width: 49%;
+    height: 40px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bonus_menu_container div:hover{
+    opacity: 0.7;
+}
+
+#gift{
+    background-size: 35px 35px;
+    background-image: url("../img/layout/gift.png");
+}
+
+#history{
+    background-size: 40px 40px;
+    background-image: url("../img/layout/history.png");
+}

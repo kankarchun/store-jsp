@@ -1,0 +1,127 @@
+/*#register{
+    border:2px solid grey;
+    width:50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    overflow:hidden;
+    border-radius: 10px;
+    font-size:25px;
+    margin-bottom: 5%;
+}
+#msg{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+table input[type="text"]{
+    border:none;
+    outline:none;
+    border-bottom:2px solid grey;
+    background-color:white;
+    width:15em;
+}
+table input[type="text"]:focus::-webkit-input-placeholder{
+    color:transparent;
+}
+
+table input[type="submit"]{
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0; 
+    margin-left:35%;
+
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+
+
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+
+}
+table{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+table input[type="submit"]:hover{
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+}
+table td{
+    height:50px;
+}
+table label{
+    width:8em;
+}*/
+
+div#container>div#msg{
+    width: 100%;    
+    background-color:#212121;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+div#container>div.register_box>b{
+    width: 100%;
+    display: block;
+}
+div#container>div.register_box{
+    width: 100%;
+    text-align: center;
+}
+div#container>div.register_box>form{
+    border-top: 5px dashed #212121;
+    width: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px 10%;
+    border-bottom: 5px dashed #212121;
+}
+div#container>div.register_box>form>div{
+    text-align: left;
+    margin-bottom: 30px;
+}
+div#container>div.register_box>form>div>label{
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    display: block;
+}
+div#container>div.register_box>form>div>textarea{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 1px 15px;
+    border: solid 1px #000;
+    outline: none;
+}
+div#container>div.register_box>form>div>input{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    height: 36px;
+    padding: 1px 15px;
+    border: solid 1px #000;
+    outline: none;
+}
+div#container>div.register_box>form>input{
+    background: #000;
+    color: #FFF;
+    border-color: #000;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}

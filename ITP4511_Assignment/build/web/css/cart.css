@@ -1,0 +1,129 @@
+div#container>b {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #212121;
+}
+
+div#container>table {
+    width: 100%;
+    text-align: left;
+}
+
+div#container>table>tbody>tr:nth-child(1) {
+    background-color: #f2f2f2;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+div#container>table>tbody>tr>td {
+    padding: 30px 0;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+div#container>table>tbody>tr>td>input {
+    border: none;
+    outline: none;
+    background: #FFF;
+    border: 1px solid #212121;
+    padding: 0px 0px 0 10px;
+}
+
+div#container>table>tbody>tr>td:last-child {
+    color: #a0a0a0;
+}
+
+div#container>table>tbody>tr>th:nth-child(1) {
+    width: 9%;
+}
+
+div#container>table>tbody>tr>th:nth-child(2) {
+    width: 40%;
+}
+
+div#container>table>tbody>tr>th:nth-child(3) {
+    width: 15%;
+}
+
+div#container>table>tbody>tr>th:nth-child(4) {
+    width: 15%;
+}
+
+div#container>table>tbody>tr>th:nth-child(5) {
+    width: 15%;
+}
+
+div#container>table>tbody>tr>th:nth-child(6) {
+    width: 6%;
+}
+
+div#container>div#coupon {
+    width: 20%;
+    float: left;
+}
+
+div#container>div#coupon>b {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div#container>div#coupon>input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div#container>div#coupon>button {
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    border: solid 1px #CCC;
+    background: #E9E9E9;
+    color: #666;
+}
+
+div#container>div#checkout {
+    width: 40%;
+    float: right;
+}
+
+div#container>div#checkout>table {
+    width: 100%;
+}
+
+div#container>div#checkout>table>tbody>tr:last-child>td {
+    border-bottom: 1px solid #212121;
+    padding-bottom: 5px;
+}
+
+div#container>div#checkout>table>tfoot>tr>td {
+    border-top: 1px solid #212121;
+    padding-top: 5px;
+}
+
+div#container>div#checkout>table>tfoot>tr>td:last-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#container>div#checkout>button {
+    font-size: 16px;
+    height: 40px;
+    width: 180px;
+    margin-top: 30px;
+    background: #FFF;
+    color: #212121;
+    border: 1px solid #212121;
+    outline: none;
+    float:left;
+}
+
+div#container>div#checkout>button:last-child{
+    float:right;
+    background: #212121;
+    color: #fff;
+}

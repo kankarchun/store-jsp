@@ -1,0 +1,150 @@
+.searching_container{
+    position:absolute;
+    top:0px; height: 85px;
+    right:0px; left:0px;
+    overflow: auto;
+}
+
+.bonus_content_container{
+    position:absolute;
+    top: 85px;
+    right:0px; left:0px;
+}
+
+.items_container{
+    display: block;
+    height: 215px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#item_detail_container{
+    display: block;
+    background-color: white;
+    max-height: 0px;
+    overflow: auto;
+    -webkit-transition: max-height 1000ms;
+    transition: max-height 1000ms;
+}
+
+.searching_container input[type=number]{
+    width: 5em;
+}
+
+#btn_search{
+    opacity: 0.6;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: transparent;
+    background-size: 100% 100%;
+    background-image: url("../img/layout/search.png");
+}
+
+#btn_search:hover{
+    opacity: 1;
+}
+
+.accessory_item{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    width: 150px;
+    overflow: hidden;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms;
+    transition: background-color 200ms;
+}
+
+.accessory_item:hover{
+    background-color: #cccccc;
+}
+
+.accessory_item_designer{
+    position: absolute;
+    top:2em;
+    display: none;
+    -webkit-transition: display 200ms;
+    transition: display 200ms;
+}
+
+.accessory_item:hover .accessory_item_designer{
+    display: inherit;
+}
+
+.accessory_item_img{
+    background-color: black;
+    background-size: 100% auto;
+    height: 150px;
+    width: 150px;
+    -webkit-transition: opacity 200ms;
+    transition: opacity 200ms;
+    opacity:1;
+}
+
+.accessory_item:hover .accessory_item_img{
+    opacity: 0.2;
+}
+
+.accessory_item .soldout{
+    border:2px red solid;
+    padding: 4px;
+    position: absolute;
+    font-size: 30px;
+    top:35%;
+    left:8%;
+}
+
+#sorting{
+    margin-left: 5px;
+    height: 22px;
+    font-size: 16px;
+}
+
+#item_detail{
+    font-size: 18px;
+    margin: 20px;
+    height: 300px;
+}
+
+#detail_img{
+    float: left;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    background-size: 100% auto;
+}
+
+#item_detail_table{
+    width: 500px;
+}
+
+#item_detail_table td{
+    padding: 5px;
+}
+
+#item_detail_table tr:nth-child(odd){
+    background-color: #cccccc;
+}
+
+#item_detail_table td:first-child{
+    width: 180px;
+}
+
+#checkout_detail input, #type{
+    font-size: 18px;
+}
+
+#quantity{
+    width: 2em;
+}
+
+#address{
+    width: 22em;
+}

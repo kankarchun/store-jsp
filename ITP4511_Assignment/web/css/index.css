@@ -1,0 +1,31 @@
+div#container>div{
+    display: block;
+    height: 600px;
+    width: 100%;
+    background-image: url('../img/index.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div#container>div>div{
+    text-align: center;
+    line-height: 500px;
+    color: #fff;
+    font-size: 50px;
+    width: 25%;
+    display: block;
+    height: 500px;
+    float: left;
+}
+/*div#spring{
+    background-color: #8BC34A;
+}
+div#summer{
+    background-color: #FF9800;
+}
+div#autumn{
+    background-color: #FFC107;
+}
+div#winter{
+    background-color: #2196F3;
+}*/
